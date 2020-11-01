@@ -21,10 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="69a800e1-8165-4d9a-bb51-157ae341cf48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/admin/admin.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/admin/dashboard-page/dashboard-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/admin/dashboard-page/dashboard-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/admin/login-page/login-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/admin/login-page/login-page.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-angular/src/app/admin/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/admin/login-page/login-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/admin/shared/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/shared/interfaces.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/admin/shared/components/admin-layout/admin-layout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/admin/shared/components/admin-layout/admin-layout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/admin/shared/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/admin/shared/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/shared/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/shared/interfaces.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-angular/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-angular/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Users\Максим\Desktop\BlogAngular\blog-angular\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -86,7 +90,7 @@
       <workItem from="1603740817990" duration="2377000" />
       <workItem from="1603743217343" duration="3235000" />
       <workItem from="1603790084418" duration="7255000" />
-      <workItem from="1603917534170" duration="1998000" />
+      <workItem from="1603917534170" duration="6998000" />
     </task>
     <servers />
   </component>
@@ -106,25 +110,29 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1513" height="209" key="GridCell.Tab.0.bottom" timestamp="1603833945268">
+    <state width="1513" height="368" key="GridCell.Tab.0.bottom" timestamp="1604147633312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1513" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603833945268" />
-    <state width="1513" height="209" key="GridCell.Tab.0.center" timestamp="1603833945268">
+    <state width="1513" height="368" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604147633312" />
+    <state width="1513" height="368" key="GridCell.Tab.0.center" timestamp="1604147633312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1513" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603833945268" />
-    <state width="1513" height="209" key="GridCell.Tab.0.left" timestamp="1603833945268">
+    <state width="1513" height="368" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604147633312" />
+    <state width="1513" height="368" key="GridCell.Tab.0.left" timestamp="1604147633311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1513" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603833945268" />
-    <state width="1513" height="209" key="GridCell.Tab.0.right" timestamp="1603833945268">
+    <state width="1513" height="368" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604147633311" />
+    <state width="1513" height="368" key="GridCell.Tab.0.right" timestamp="1604147633312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1513" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603833945268" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1603830025206">
+    <state width="1513" height="368" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604147633312" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1604146873157">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603830025206" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604146873157" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1604149434064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1604149434064" />
   </component>
 </project>
