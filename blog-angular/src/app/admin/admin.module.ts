@@ -34,7 +34,7 @@ import {EditPageComponent} from './edit-page/edit-page.component';
     RouterModule
   ],
   declarations: [AdminLayoutComponent, LoginPageComponent, DashboardPageComponent, CreatePageComponent, EditPageComponent],
-  providers: [AuthService, AuthGuard]
+  providers: [AuthGuard]
 })
 
 export class AdminModule {

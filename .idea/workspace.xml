@@ -21,11 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="69a800e1-8165-4d9a-bb51-157ae341cf48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/admin/create-page/create-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/admin/create-page/create-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/shared/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/shared/interfaces.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-angular/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/admin/admin.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/admin/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/admin/login-page/login-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/admin/shared/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/admin/shared/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-angular/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-angular/src/environments/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog-angular/src/environments/interface.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,9 @@
       <workItem from="1603790084418" duration="7255000" />
       <workItem from="1603917534170" duration="6998000" />
       <workItem from="1604225330410" duration="11612000" />
-      <workItem from="1604262827127" duration="2153000" />
+      <workItem from="1604262827127" duration="8672000" />
+      <workItem from="1604432425834" duration="1315000" />
+      <workItem from="1604726803061" duration="322000" />
     </task>
     <servers />
   </component>
@@ -110,29 +112,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1604229276143">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="612" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1604404372017">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="612" y="187" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604404372017" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604229276143" />
-    <state width="1513" height="119" key="GridCell.Tab.0.bottom" timestamp="1604264325524">
+    <state width="1409" height="6" key="GridCell.Tab.0.bottom" timestamp="1604481931903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1513" height="119" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604264325524" />
+    <state width="1409" height="6" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604481931903" />
     <state width="1900" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604243546460" />
-    <state width="1513" height="119" key="GridCell.Tab.0.center" timestamp="1604264325524">
+    <state width="1409" height="6" key="GridCell.Tab.0.center" timestamp="1604481931903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1513" height="119" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604264325524" />
+    <state width="1409" height="6" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604481931903" />
     <state width="1900" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604243546460" />
-    <state width="1513" height="119" key="GridCell.Tab.0.left" timestamp="1604264325524">
+    <state width="1409" height="6" key="GridCell.Tab.0.left" timestamp="1604481931902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1513" height="119" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604264325524" />
+    <state width="1409" height="6" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604481931902" />
     <state width="1900" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604243546459" />
-    <state width="1513" height="119" key="GridCell.Tab.0.right" timestamp="1604264325524">
+    <state width="1409" height="6" key="GridCell.Tab.0.right" timestamp="1604481931903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1513" height="119" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604264325524" />
+    <state width="1409" height="6" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604481931903" />
     <state width="1900" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604243546460" />
     <state x="346" y="72" key="SettingsEditor" timestamp="1604227345193">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -20,9 +20,11 @@ export class LoginPageComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.route.queryParams.subscribe((params)=> {
+    this.route.queryParams.subscribe((params) => {
       if (params['loginAgain']) {
         this.message = 'Пожалуйста, введите логин и пароль для входа'
+      } else if (params['authFailed']) {
+        this.message = 'Время сеанса истекло. Требуется повторный вход'
       }
     })
 
@@ -44,13 +46,14 @@ export class LoginPageComponent implements OnInit {
     const user: User = {
       email: this.form.value.email,
       password: this.form.value.password
-    };
+    }
 
     this.auth.login(user).subscribe(() => {
       this.form.reset();
       this.router.navigate(['/admin', 'dashboard']);
       this.submitted = false;
-    }, ()=> {
+    }, () => {
+      console.log('false')
       this.submitted = false
     });
   }
