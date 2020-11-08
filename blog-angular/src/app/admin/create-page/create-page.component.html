@@ -1,6 +1,5 @@
 <form [formGroup]="form" (ngSubmit)="submit()">
   <h1>Создание нового поста</h1>
-
   <div
     class="form-control"
     [ngClass]="{invalid: form.get('title').touched && form.get('title').invalid}"

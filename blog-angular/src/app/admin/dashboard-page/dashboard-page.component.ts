@@ -37,5 +37,5 @@ export class DashboardPageComponent implements OnInit, OnDestroy {
       this.posts = this.posts.filter(post => post.id !== id)
     })
   }
-  
+
 }
